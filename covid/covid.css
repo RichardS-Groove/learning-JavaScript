@@ -1,0 +1,14 @@
+.container {
+    border: 2px dashed #DDD;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: #b9ffe1;
+    color: #002d2c;
+    font-family: emoji;
+    width: 600px;
+    margin: auto;
+}
+
+body {
+    background: #4a0548c7;
+}
