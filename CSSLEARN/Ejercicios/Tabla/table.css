@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    /*Borra los espacios intermedio de los columnas*/
+}
+
+tr:nth-child(even) {
+    /*Aca selecciónamos la fila y le sombreamos a esa sola fila */
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

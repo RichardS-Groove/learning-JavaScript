@@ -1,0 +1,40 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    display: block;
+    /*Bueno aca colocamos bien inline para que sea en una linea o bien block para que sea un bloque*/
+}
+
+#invisible {
+    display: none;
+}
+
+span {
+    /*0 display: block;*/
+}
+
+#max-width-position {
+    max-width: 350px;
+    margin: auto;
+    background-color: #f00;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#over {
+    width: 100px;
+    height: 100px;
+    overflow: -moz-hidden-unscrollable;
+}
+
+img {
+    float: left;
+}
+
+img:hover {
+    opacity: 0.9;
+}

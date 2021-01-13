@@ -1,0 +1,64 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    color: #222fff;
+    text-align: justify;
+    /*Permite aliniar el texto bien al centro a la derecha o izquierda - Tambien tiene el justify - justifica el texto con el mismo ancho*/
+    text-indent: 40px;
+    /*Sirve para poder darle un desplazamiento a la primera sección del texto -  sirve mucho para los parrafos*/
+    line-height: 1.7;
+    /*seteamos la altura que le damos al texto, me refiero al espacio en distancia de arriba de las letras.*/
+    word-spacing: 10px;
+    /*Agrega un espacio entre las palabras del parrafo*/
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.3);
+    /*Damos efectos el primero es que tanto se desplaza el texto hacia la izquierda y la segunda es como se desplaza hacia la izquierda - abajo luego la cantidad de difunización y color - 3px 2px 2px red*/
+    font-family: 'Times New Roman', Times, serif;
+    /*Cambios la fuente*/
+    font-style: italic;
+    /*El estilo que puede tener esta fuente*/
+    font-size: 1.5em;
+    /*Tamaño de la fuente - em es la unidad que tiene configurado el explorar web*/
+    font-weight: 500;
+    /*Modificamos el ancho del texto - bold y tmb podemos usar 900 es el maximo se incrementan en 100 hasta el 900*/
+}
+
+.primeroA {
+    text-decoration: none;
+    /*Le podemos dar decoración al texto - none quitamos el subrrayado - underline deja el subrrayado  */
+    text-transform: capitalize;
+    /*Podemos agrandar o hacer pequeño el texto - Mayusculas o minisculas!!*/
+    letter-spacing: 3px;
+    /*Lo que se genera es una separación entre las letras*/
+}
+
+.segundoA {}
+
+a {
+    color: hotpink;
+    background-color: #f00;
+    border: solid 1px;
+    border-color: #d00;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #222fff;
+}
+
+a:hover {
+    color: gray;
+    background-color: #d00;
+}
+
+a:active {
+    color: black;
+}

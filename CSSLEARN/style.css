@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    margin: 8px;
+    /* Margin permite separar la caja con la caja de mas arriba en esté caso con el body*/
+    padding: 8px;
+    /*Padding Nos permite tomar el contenido de nuestra caja y ponerlo mas al centro, */
+    border-style: solid;
+    /* Nos permite realizar una separación entre margin y padding*/
+    border-width: 2px;
+    /*Nos permite dar el ancho al borde*/
+    border-color: #faa;
+    /* Nos permite indicar el color del borde*/
+    border-left: 6px solid #afa;
+    /*Podemos reemplzar el de la izquierda - border top para reemplazar al de arriba - border bottom para reemplazar el borde abajo - borde rigth para reemplazar el borde de la derecha*/
+    background-color: #aaf;
+    /*Pone el color adentro*/
+    border-radius: 8px;
+    /*Calcula la curvatura que tiene que tener los bordes*/
+    height: 100px;
+    /*Una altura */
+    width: 100px;
+    /*Un ancho */
+    color: aqua;
+    /* Nos permite cambiar el color del texto*/
+}

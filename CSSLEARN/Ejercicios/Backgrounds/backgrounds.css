@@ -1,0 +1,21 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    /*
+    height: 400px;
+    /*background: green url('') no-repeat left top scroll; En una sola linea podemos poner todo lo que escribimso abajo*/
+    /*background-color: green;
+    background-image: url('http://placekitten.com/200/300');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll; */
+    /*La imagen se mueve o que no se mueva por defaul scroll, para que no se mueva fixed*/
+    /*background-size: cover; */
+    /* background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(red, green, blue, alpha); */
+    /*background-color: hsl(255, 100%, 0%); 
+    background-color: hsl(hue, saturation, lightness , alpha); */
+    background-image: linear-gradient(to bottom right, red, blue);
+}
